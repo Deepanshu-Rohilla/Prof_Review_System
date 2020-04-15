@@ -1,0 +1,64 @@
+.navBar{
+    background-color: black;
+    border-radius: 32px;
+}
+.navBar ul{
+    overflow: auto;
+}
+.navBar li{
+    float: left;
+    list-style: none;
+    margin: 15px 20px;
+}
+.navBar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navBar li a:hover{
+    background-color: white;
+    color: black;
+}
+.search{
+    padding: 15px 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 8px;
+}
+#logo{
+    height: 108px;
+    width: 108px;
+    display: inline-block;
+}
+.profList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    height: 100%;
+    position: fixed; 
+    overflow: auto; 
+  }
+  .profList ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    
+  }
+  
+  .profList li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  
+  .profList li a:hover {
+    background-color: #555;
+    color: white;
+  }
