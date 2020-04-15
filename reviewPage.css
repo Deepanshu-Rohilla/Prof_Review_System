@@ -1,0 +1,83 @@
+body{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Multi_Storey_Building%2C_IITD.JPG/1024px-Multi_Storey_Building%2C_IITD.JPG) ;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  
+  ;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+    max-width: 1000px;
+    margin: 50px 10px 10px 50px;
+    text-align: center;
+    padding: 20px;
+    float: left;
+  width: 100%;
+  padding: 0 10px;
+  height: auto;
+  background: white;
+  opacity: 0.7 ;
+
+  }
+ .card h1{
+     margin align-self: auto;
+     text-decoration: underline;
+       
+
+ }
+
+ #heading{
+   color: black;
+ }
+ .card {
+    position: relative;
+    font-family: Arial;
+  }
+  .options{
+    font-size: 20px;
+    padding: 10px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    background: none;
+    color: red;
+  }
+  #score{
+    margin-bottom: 8px;
+    width: 100%;
+    opacity: 0.8;
+    text-align: center;
+    background: white;
+    border-radius: 30px;
+    font-size: larger;
+    color: red;
+    height: 25px;
+  }
+  ::placeholder{
+    color: red;  
+    opacity: 1;
+  }
+  .button {
+    background-color: skyblue ;
+    opacity: 0.5;
+    border: 2px solid rgb(23, 23, 209);
+    color: blue;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .button:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+  }
