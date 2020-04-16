@@ -35,30 +35,52 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 25%;
+    width: 28.5%;
     background-color: #f1f1f1;
     height: 100%;
     position: fixed; 
     overflow: auto; 
+    
   }
-  .profList ol {
+   .profList ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 200px;
     background-color: #f1f1f1;
     
-  }
+  } 
   
   .profList li a {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
-  }
+  } 
   
   
   .profList li a:hover {
     background-color: #555;
     color: white;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin:auto;
+    margin-right: 30px !important;
+    margin-left: 20px;
+    text-align: center;
+    padding: 10px;
+    float: left;
+  width: 50%;
+  background-color: #f1f1f1;
+  padding: 0 10px;
+  }
+ .card h1{
+     margin align-self: auto;
+ }
+  .heading{
+      color: black;
+      text-decoration: underline;
   }
