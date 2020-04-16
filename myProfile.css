@@ -1,0 +1,75 @@
+*{
+    box-sizing: content-box;
+}
+#user-image{
+    height: 108px;
+    width: 108px;
+    display: inline-block;
+}
+#heading{
+    color: black;
+    text-decoration: underline;
+    color: green;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: fit-content;
+    padding: 23px;
+    background: skyblue;
+  background-size: 100px 80px;
+  background-repeat: no-repeat;
+}
+
+/* Source is w3schools.com */
+.alert {
+    padding: 20px;
+    padding-top: 10px !important;
+    background-color: orange; 
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    top: -70px;
+
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+  .navBar{
+    background-color: black;
+    border-radius: 32px;
+}
+.navBar ul{
+    overflow: auto;
+}
+.navBar li{
+    float: left;
+    list-style: none;
+    margin: 15px 20px;
+}
+.navBar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navBar li a:hover{
+    background-color: white;
+    color: black;
+}
+.search{
+    padding: 15px 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 8px;
+}
