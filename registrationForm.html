@@ -8,26 +8,22 @@
 
 <form action="registration.php">
   <div class="container">
-    <h1>Register for Professor Review System</h1>
-    <p>Please fill in this form to add your information to our database.</p>
+    <h1 id = "heading">Register for Professor Review System</h1>
+    <p id = "description">Please fill in this form to add your information to our database.</p>
     <hr>
-    <label id ="name" class="inputs" for="name"><strong>Name</strong></label>
     <br>
-    <input class = "typingArea"type="text" placeholder="Enter Your Name" name="name" id = "name"required>
+    <input class = "typingArea"type="text" placeholder="Name" name="name" id = "name"required>
     <br>
-    <label class="inputs" for="email"><strong>Email</strong></label>
+    <input class = "typingArea"type="text" placeholder="Entry Number" name="entryNumber" id = "entryNumber"required>
     <br>
-    <input class = "typingArea"type="text" placeholder="Enter Email" name="email" id = "email" required>
+    <input class = "typingArea"type="text" placeholder="Email" name="email" id = "email" required>
     <br>
-    <label class="inputs" for="pass"><strong>Password</strong></label>
-    <br>
-    <input class = "typingArea"type="password" placeholder="Enter Password" name="pass" id= "pass" required>
-    <br>
-    <label class="inputs" for="paasRepeat"><strong>Repeat Password</strong></label>
+    <input class = "typingArea"type="password" placeholder="Password" name="pass" id= "pass" required>
     <br>
     <input class = "typingArea"type="password" placeholder="Repeat Password" name="passRepeat" id ="passRepeat" required>
-    <div id= "registerbtn">
-        <a href="#" id ="registerbtn"><i>
+    
+    <div>
+        <a href="#" id ="register"><i>
         </i> Register
       </a>
     </div>

@@ -1,12 +1,13 @@
 
-  * {
+ body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Multi_Storey_Building%2C_IITD.JPG/1024px-Multi_Storey_Building%2C_IITD.JPG" );
+    background-size: cover;
+ }
+ * {
     box-sizing: border-box;
   }
   .container {
     padding: 16px;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Multi_Storey_Building%2C_IITD.JPG/1024px-Multi_Storey_Building%2C_IITD.JPG" );
-    background-repeat: no-repeat;
-  background-size: 1800px 2000px;
   display: block;
   }
   #heading{
@@ -29,11 +30,12 @@
   .typingArea{
     display: block;
     box-sizing: border-box;
+    background: none;
     margin-bottom: 20px;
     padding: 4px;
     width: 220px;
     height: 32px;
-    margin-left: 250px !important;
+    margin-left: 120px !important;
     border: none;
     border-bottom: 1px solid #AAA;
     font-family: 'Roboto', sans-serif;
@@ -42,13 +44,7 @@
     transition: 0.2s ease;
     
   }
-  #repeatPassword{
-    display: block;
-    padding: 4px;
-    width: 220px;
-    height: 32px;
-  }
-  
+
   input[type=text]:focus {
     border: 3px solid #555;
   }
@@ -62,46 +58,19 @@
     border: 3px solid #555;
   } 
   
-  #register {
+  
+  #login {
     background-color: rgb(37, 94, 218);
     color: white;
     padding: 16px 20px;
-    
-    line-height: 100px;
-    width: 100%;
-    margin-left: 250px;
-    border-radius: 5px;
-    text-decoration: none;
-    
-  }
-  #register:hover{
-      background-color: blue;
-  }
-  #googlebtn {
-    background-color: #dd4b39;
-    color: white;
-    padding: 16px 20px;
     margin: 8px 0 30px;
     line-height: 100px;
     width: 100%;
-    margin-left: 250px;
+    margin-left: 120px !important;
     border-radius: 5px;
-text-decoration: none;
+    text-decoration: none;
+    
   }
   #googlebtn:hover{
-      background-color: #a51b09;
-  }
-  #githubbtn {
-    background-color: #3E2C00;
-    color: white;
-    padding: 16px 20px;
-    margin: 8px 0 30px;
-    width: 100%;
-    margin-left: 250px;
-    border-radius: 5px;
-    text-decoration: none;
-    
-  }
-  #githubbtn:hover{
-      background-color: rgb(82, 62, 15);
+      background-color: blue;
   }
